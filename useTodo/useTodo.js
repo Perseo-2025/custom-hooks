@@ -1,7 +1,5 @@
-import { useReducer } from "react";
-import { useReducerTodo } from "../components/useReducer/useReducerTodo";
-import { useEffect } from "react";
-
+import { useReducer, useEffect } from "react";
+import { useReducerTodo } from "./useReducerTodo";
 
 const initialValue = [
     /* {
